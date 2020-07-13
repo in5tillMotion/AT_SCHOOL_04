@@ -12,8 +12,7 @@ public class Main {
     public static void main(String[] args) {
         Other.saySomthing();
         Some some = new Some("Секрет");
-        System.out.println(some.getДаТакТожеМожно());
-        System.out.println(some);
+        System.out.println(some.getSecret());
         some.setNoMoreSecrets(some.getДаТакТожеМожно());
         System.out.println(some.getSecret(true));
         System.out.println(some);
